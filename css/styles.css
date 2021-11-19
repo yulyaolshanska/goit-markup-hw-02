@@ -84,3 +84,15 @@ ul {
 .footer {
   background-color: var(--dark-bcg-color);
 }
+
+/* Портфолио  */
+
+.btn-filter {
+  color: var(--secondary-text-color);
+  background-color: var(--secondary-bcg-color);
+}
+.btn-filter:focus,
+.btn-filter:hover {
+  background-color: var(--accent-color);
+  color: var(--white-text-color);
+}
