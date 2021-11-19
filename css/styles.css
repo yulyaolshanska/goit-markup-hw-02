@@ -56,8 +56,18 @@ ul {
 .hero-title {
   color: var(--white-text-color);
 }
+.btn {
+  background-color: var(--accent-color);
+  color: var(--white-text-color);
+}
 
 /* Feauteres section  */
+
+/* Team section  */
+
+.team-section {
+  background-color: var(--secondary-bcg-color);
+}
 
 /* Footer  */
 
@@ -67,7 +77,7 @@ ul {
 .address {
   color: var(--white-text-color);
 }
-footer-contact {
+.footer-contact {
   color: rgba(255, 255, 255, 0.6);
 }
 
