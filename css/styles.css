@@ -1,0 +1,76 @@
+/* Акцент #2196F3 */
+/* Основной цвет текста #757575 */
+/* Вторичный цвет текста #212121 */
+
+/* Основной цвет фона #FFFFFF */
+/* Вторичный цвет фота #F5F4FA */
+/* Темный цвет фона #2F303A */
+:root {
+  --accent-color: #2196f3;
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --white-text-color: #ffffff;
+  --white-bcg-color: #ffffff;
+  --secondary-bcg-color: #f5f4fa;
+  --dark-bcg-color: #2f303a;
+}
+body {
+  background-color: var(--white-bcg-color);
+  color: var(--primary-text-color);
+}
+.title {
+  color: var(--secondary-text-color);
+}
+ul {
+  list-style: none;
+}
+
+/* Naigation */
+
+.logo {
+  color: var(--secondary-text-color);
+}
+.logo span {
+  color: var(--accent-color);
+}
+.nav-link {
+  color: var(--secondary-text-color);
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+.contact {
+  color: var(--primary-text-color);
+}
+.contact:hover,
+.contact:focus {
+  color: var(--accent-color);
+}
+
+/* Hero section */
+
+.hero {
+  background-color: var(--dark-bcg-color);
+}
+.hero-title {
+  color: var(--white-text-color);
+}
+
+/* Feauteres section  */
+
+/* Footer  */
+
+.footer-logo {
+  color: var(--white-text-color);
+}
+.address {
+  color: var(--white-text-color);
+}
+footer-contact {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer {
+  background-color: var(--dark-bcg-color);
+}
