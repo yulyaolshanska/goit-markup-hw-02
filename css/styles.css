@@ -60,6 +60,9 @@ ul {
 .nav-link:focus {
   color: var(--accent-color);
 }
+.nav-link.current {
+  color: var(--accent-color);
+}
 .contact {
   color: var(--primary-text-color);
 }
@@ -99,6 +102,7 @@ ul {
 .hero-btn:focus,
 .hero-btn:hover {
   background-color: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 /* Feauteres section  */
