@@ -96,6 +96,10 @@ ul {
 
   letter-spacing: 0.06em;
 }
+.hero-btn:focus,
+.hero-btn:hover {
+  background-color: #188ce8;
+}
 
 /* Feauteres section  */
 .features-title {
